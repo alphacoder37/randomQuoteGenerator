@@ -31,7 +31,7 @@ btnColorIndex: Math.floor(Math.random()*7)
         ]
         const colorArray = [
             "#FF5733",
-            "#D35400",
+            "#D3540",
             "#3364FF",
             "#AF7AC5",
             "#B9770E",
@@ -60,10 +60,9 @@ btnColorIndex: Math.floor(Math.random()*7)
 
             <div className="row my-container">
               <div className="col-xs-7 ">
-                <a href="twitter.com/intent/tweet" target="_blank">
+                <a href="twitter.com/intent/tweet" target="_blank" id="tweet-quote">
                   <button
                     className={buttonChange}
-                    id="tweet-quote"
                   >
                     <i className="fab fa-twitter"></i>
                   </button>
